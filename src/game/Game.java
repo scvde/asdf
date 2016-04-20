@@ -94,7 +94,7 @@ public class Game {
 		Room room1_1 = new Room(false, true, true, false);
 		room1_1.setStart(true);
 		room1_1.setTitle("Room 1-1");
-		room1_1.setDescription("This room is the start of the maze.\nAbove the door you see a faded sign, it reads \"Cookie Monster's Crack House\"");
+		room1_1.setDescription("This room is the start of the maze.\nAbove the door you see a faded sign, it reads \"Blue Bear's Nice House\"");
 		
 		Room room1_2 = new Room(false, true, false, true);
 		room1_2.setStart(false);
@@ -253,6 +253,7 @@ public class Game {
 		// Next go through the one-word long commands
 		else if(command.equals("quit"))
 		{
+			System.out.println("Thank you for playing!!");
 			System.exit(0);
 		}
 		else if(command.equals("help"))
